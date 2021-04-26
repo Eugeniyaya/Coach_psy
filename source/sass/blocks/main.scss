@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+// .body__index {
+//   width: 1440px;
+//   //background-image: url("/source/img/main-page_1.jpg");
+//   background-repeat: no-repeat;
+//   background-size: contain;
+// }
+
+// .body__about {
+//   background-image: url("/source/img/Обо\ мне.jpg");
+//   background-repeat: no-repeat;
+//   background-size: 1440px;
+//   background-position: top;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+.body__account {
+  background-image: url("/source/img/Личный\ кабинет_3.jpg");
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  background-position: top;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main a {
+  text-decoration: none;
+}
+
+.main__content-wrapper {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+}
+.carousel-item img {
+  padding: 0 90px;
+}
+.carousel-item.active {
+  display: flex;
+  justify-content: center;
+}
+.carousel-inner {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.avatar {
+  margin: 50px 0;
+  margin-bottom: 32px;
+}
+.avatar__img {
+  width: 160px;
+  height: 160px;
+  background-color: $lavender-color;
+  border: 8px solid white;
+  border-radius: 50%;
+  background-image: url(/source/img/user-avatar.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.avatar__link-change {
+  text-decoration: underline;
+  font-size: 20px;
+  line-height: 30px;
+  color: $dark-purple-color;
+  padding-left: 33px;
+  padding-top: 6px;
+}

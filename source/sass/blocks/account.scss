@@ -1,0 +1,39 @@
+.account__nav {
+  background-color: $light-blue-color;
+  width: 33.5%;
+}
+.account__content {
+  width: 63%;
+}
+.account__wrapper-nav {
+  width: 435px;
+  margin-left: 11%;
+}
+.account__navigation  {
+  list-style: none;
+ }
+.account__wrapper-content {
+  min-height: 910px;
+  outline: 2px solid rgb(131, 130, 158);
+  outline-offset: -2px;
+  margin-left: 136px;
+  padding-top: 55px;
+}
+.account__contacts {
+  width: 100%;
+  padding-top: 8px;
+  padding-right: 13px;
+  padding-left: 20px;
+}
+.account__contacts-title {
+  text-align: left;
+  padding-left: 115px;
+}
+.account__title {
+  font-family: El Messiri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 50px;
+}

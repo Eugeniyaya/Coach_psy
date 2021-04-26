@@ -1,0 +1,48 @@
+.aside-form {
+  width: 41%;
+ }
+.aside-form__wrapper {
+  width: 433px;
+  height: 818px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 88px;
+  margin-left: 21%;
+  padding: 38px 41px;
+  background-color: $light-blue-color;
+}
+.aside-form__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: $dark-purple-color;
+  padding-bottom: 26px;
+  margin-bottom: 0;
+}
+.aside-form__title {
+  text-align: center;
+  padding-bottom: 34px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.aside-form__input {
+  width: 313px;
+  height: 56px;
+  border: 1px solid $dark-purple-color;
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding-left: 32%;
+}
+.aside-form__button {
+  width: 213px;
+  height: 56px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.aside-form__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

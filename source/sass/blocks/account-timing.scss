@@ -1,0 +1,49 @@
+.account-timing {
+  width: 100%;
+  outline: 2px solid rgb(18, 149, 248);
+  outline-offset: -2px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 90px;
+}
+.account-timing__title {
+  font-family: El Messiri;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: $dark-purple-color;
+  padding-top: 30px;
+  padding-left: 60px;
+}
+.account-timing__list {
+  list-style: none;
+}
+.account-timing__item {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 0;
+  margin-left: 57px;
+  margin-right: 31px;
+  border-bottom: 1px solid #000000;
+}
+.account-timing__item_last {
+  border-bottom: 1px solid $gray-color;
+}
+.account-timing__item:last-child {
+  border-bottom: none;
+}
+.account-timing__text_time {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.account-timing__list {
+  margin-bottom: 60px;
+}
+.account-timing__last-cons {
+  margin-top: 20px;
+  color: $gray-color;
+}
+.account-timing__last-cons, .account-timing__future-cons {
+  background-color: $light-blue-color;
+}

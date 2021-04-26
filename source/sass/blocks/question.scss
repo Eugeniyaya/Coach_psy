@@ -1,0 +1,23 @@
+.question {
+  padding-left: 83px;
+  padding-bottom: 40px;
+  background-image: url(/source/img/quastion-icon.svg);
+  background-repeat: no-repeat;
+}
+.question:last-child {
+  padding-bottom: 5px;
+}
+.question__title {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+  border-bottom: 2px solid $dark-purple-color;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.question__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}

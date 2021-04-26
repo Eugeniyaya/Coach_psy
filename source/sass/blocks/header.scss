@@ -1,0 +1,31 @@
+.header {
+  background-color: $lavender-color;
+  width: 100%;
+}
+.header__wrapper {
+  width: 1340px;
+  min-height: 100px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 18px;
+  //justify-content: space-between;
+}
+.header__entry, .header__shopping-cart {
+  padding-top: 11px;
+}
+.header__person {
+  padding-top: 16px;
+}
+
+.header__logo {
+  padding-right: 49px;
+}
+.header__icons {
+  width: 182px;
+  padding-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 52px;
+}

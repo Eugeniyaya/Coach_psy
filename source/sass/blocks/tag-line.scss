@@ -1,0 +1,17 @@
+.tag-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag-line__tag {
+  font-size: 14px;
+  line-height: 30px;
+  display: block;
+  height: 33px;
+  padding: 0 25px;
+  color: black;
+  background-color: $lavender-color;
+  border: 1px solid $lavender-color;
+  border-radius: 20px;
+  margin-right: 17px;
+  margin-bottom: 20px;
+}

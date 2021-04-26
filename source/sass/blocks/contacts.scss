@@ -1,0 +1,41 @@
+.contacts {
+  width: 1119px;
+  min-height: 127px;
+  outline: 2px solid rgb(138, 247, 49);
+  outline-offset: -2px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.contacts__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  padding-bottom: 47px;
+}
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__link {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  color: $dark-purple-color;
+  padding-left: 55px;
+}
+.contacts__link_wapp {
+  background-image: url(/source/img/whatsapp-blue-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contacts__link_telegram {
+  background-image: url(/source/img/telegram-blue-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.contacts__link_mail {
+  background-image: url(/source/img/mail-blue-icon.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+}

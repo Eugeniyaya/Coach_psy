@@ -1,0 +1,28 @@
+.search-form {
+  width: 394px;
+  height: 45px;
+  padding-top: 11px;
+}
+.search-form__input {
+  width: 306px;
+  height: 45px;
+  border: 1px solid #362364;
+  border-radius: 3px;
+}
+.search-form__button {
+  width: 88px;
+  height: 45px;
+  background: $purple-color;
+  color: white;
+  border: 1px solid #362364;
+  margin-left: -6px;
+  padding-top: 1px;
+}
+.search-form__input::placeholder {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 16px;
+}

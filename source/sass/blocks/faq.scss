@@ -1,0 +1,24 @@
+.faq {
+  width: 1310px;
+  min-height: 984px;
+  outline: 2px solid rgb(255, 207, 17);
+  outline-offset: -2px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  font-family: Raleway;
+  font-style: normal;
+}
+.faq__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  padding-bottom: 55px;
+}
+.faq__questions {
+  list-style: none;
+}
+.faq__question {
+  color: $dark-purple-color;
+}
+

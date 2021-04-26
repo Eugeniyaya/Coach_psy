@@ -1,0 +1,54 @@
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.posts__post {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.posts__title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+}
+.posts__post_target {
+  background-image: url(/source/img/target-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_coach {
+  background-image: url(/source/img/pazl-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_go-target {
+  background-image: url(/source/img/stav-target-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_motivation {
+  background-image: url(/source/img/moon-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_coach-vs-psy {
+  background-image: url(/source/img/psychology-vs-coach-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_gen-keys {
+  background-image: url(/source/img/faces-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_gift {
+  background-image: url(/source/img/dar-blog.jpg);
+  background-repeat: no-repeat;
+}
+.posts__post_shadow {
+  background-image: url(/source/img/ten-blog.jpg);
+  background-repeat: no-repeat;
+}
