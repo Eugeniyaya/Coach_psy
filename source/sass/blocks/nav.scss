@@ -1,16 +1,31 @@
 .nav {
+  width: 34%;
   font-family: El Messiri;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 45px;
   letter-spacing: 0.02em;
-  min-width: 495px;
   display: flex;
   justify-content: space-between;
-  padding-right: 60px;
   padding-top: 15px;
 }
 .nav__link {
   color: $dark-purple-color;
+  text-decoration: none;
+  padding-right: 3%;
+}
+@media (max-width: 1024px) {
+  .nav {
+    font-size: 22px;
+    //width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    font-size: 22px;
+    width: 45%;
+    }
 }

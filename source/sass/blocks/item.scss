@@ -1,5 +1,5 @@
 .item {
-  width: 1140px;
+  max-width: 1140px;
   min-height: 437px;
   outline: 2px solid rgb(241, 37, 156);
   outline-offset: -2px;
@@ -105,4 +105,37 @@
   max-width: 600px;
   text-align: center;
   margin: 0;
+}
+@media (max-width: 1024px) {
+  .item {
+    padding: 0 10px;
+  }
+  .item__img {
+    width: 300px;
+    height: 375px;
+    align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .item {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+  .item__img {
+    padding-bottom: 20px;
+  }
+  .item__title {
+    padding-bottom: 10px;
+  }
+  .item__info-wrapper {
+    padding: 15px 0;
+  }
+  .item__text {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .item__text2-wrapper {
+    padding-bottom: 10px;
+  }
 }

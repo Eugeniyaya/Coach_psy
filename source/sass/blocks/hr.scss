@@ -1,6 +1,12 @@
 .hr {
-  width: 1340px;
+  width: 90%;
+  max-width: 1340px;
   color: rgba(35, 12, 83, 0.5);
   margin: 0 auto;
   margin-bottom: 98px;
+}
+@media (max-width: 768px) {
+  .hr {
+    margin-bottom: 60px;
+  }
 }

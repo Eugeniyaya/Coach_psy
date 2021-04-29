@@ -30,9 +30,7 @@
   line-height: 30px;
   color: $dark-purple-color;
 }
-.oder__text_name {
-  text-decoration: underline;
-}
+
 .oder__text_X {
   font-weight: 600;
   color: #D6162D;
@@ -54,4 +52,7 @@
   width: 390px;
   height: 50px;
   align-self: flex-end;
+}
+.oder__text_name {
+  text-decoration: underline;
 }

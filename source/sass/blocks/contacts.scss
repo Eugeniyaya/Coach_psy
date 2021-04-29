@@ -1,5 +1,5 @@
 .contacts {
-  width: 1119px;
+  max-width: 1119px;
   min-height: 127px;
   outline: 2px solid rgb(138, 247, 49);
   outline-offset: -2px;
@@ -38,4 +38,20 @@
   background-image: url(/source/img/mail-blue-icon.svg);
   background-repeat: no-repeat;
   background-position: left;
+}
+@media (max-width: 1024px) {
+  .contacts {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 768px) {
+  .contacts {
+    margin-bottom: 60px;
+  }
+  .contacts__title {
+    padding-bottom: 30px;
+  }
+  .contacts__link {
+    font-size: 18px;
+  }
 }

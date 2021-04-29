@@ -12,7 +12,8 @@
   position: relative;
 }
 .footer__top, .footer__bottom {
-  width: 1340px;
+  width: 100%;
+  max-width: 1340px;
   margin: 0 auto;
   outline: 2px solid rgb(29, 26, 219);
   outline-offset: -2px;
@@ -40,4 +41,15 @@
 }
 .footer__icon {
   vertical-align: middle;
+}
+@media (max-width: 1024px) {
+  .footer {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__nav {
+    min-width: 400px;
+  }
 }

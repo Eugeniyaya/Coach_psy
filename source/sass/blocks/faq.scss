@@ -1,5 +1,5 @@
 .faq {
-  width: 1310px;
+  max-width: 1310px;
   min-height: 984px;
   outline: 2px solid rgb(255, 207, 17);
   outline-offset: -2px;
@@ -21,4 +21,20 @@
 .faq__question {
   color: $dark-purple-color;
 }
-
+@media (max-width: 1024px) {
+  .faq {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 768px) {
+  .faq {
+    margin-bottom: 60px;
+  }
+  .faq__title {
+    padding-bottom: 30px;
+  }
+  .faq__question {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

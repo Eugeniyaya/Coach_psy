@@ -1,13 +1,13 @@
 .posts {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .posts__post {
   width: 320px;
   height: 320px;
   position: relative;
-  margin: 10px 0px;
+  margin: 10px;
   display: flex;
   justify-content: center;
 }
@@ -51,4 +51,10 @@
 .posts__post_shadow {
   background-image: url(/source/img/ten-blog.jpg);
   background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .posts {
+    justify-content: center;
+  }
 }

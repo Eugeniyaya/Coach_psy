@@ -1,13 +1,15 @@
 .intro {
-  width: 1340px;
+  max-width: 1340px;
   min-height: 500px;
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 100px;
   outline: 2px solid red;
   outline-offset: -2px;
   justify-content: space-between;
 }
+
 .intro__wrapper {
   width: 700px;
 }
@@ -35,3 +37,23 @@
   width: 260px;
   height: 56px;
 }
+@media (max-width: 1024px) {
+  .intro {
+    justify-content: center;
+  }
+  .intro__portret {
+    padding-bottom: 40px;
+  }
+  .intro__wrapper {
+    padding-left: 8%;
+  }
+}
+@media (max-width: 768px) {
+  .intro {
+    margin-bottom: 60px;
+  }
+  .intro__portret {
+    width: 400px;
+  }
+}
+

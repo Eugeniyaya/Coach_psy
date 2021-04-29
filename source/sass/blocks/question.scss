@@ -21,3 +21,9 @@
   line-height: 20px;
   padding-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .question__text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
