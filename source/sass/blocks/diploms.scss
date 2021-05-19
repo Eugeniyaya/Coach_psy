@@ -16,7 +16,36 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 .diploms__img {
   padding: 8px 6px;
 }
+// @media (max-width: 1024px) {
+
+// }
+@media (max-width: 768px) {
+  .diploms {
+    margin-bottom: 60px;
+  }
+  .diploms__wrapper {
+    max-width: 320px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  .diploms__title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+    align-self: flex-start;
+  }
+  .diploms__img {
+    padding: 0px;
+  }
+}
+

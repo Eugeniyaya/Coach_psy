@@ -8,24 +8,30 @@
   letter-spacing: 0.02em;
   display: flex;
   justify-content: space-between;
-  padding-top: 15px;
+}
+.nav__link:hover {
+  background-color: #9AADD1;
+}
+.nav__link:active {
+  box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.15), inset -4px -4px 4px rgba(0, 0, 0, 0.15);
 }
 .nav__link {
+  width: 33%;
+  text-align: center;
   color: $dark-purple-color;
   text-decoration: none;
-  padding-right: 3%;
+  padding: 28px 0;
 }
 @media (max-width: 1024px) {
   .nav {
+    width: 45%;
     font-size: 22px;
-    //width: 50%;
     padding-right: 5px;
     padding-left: 5px;
   }
 }
 @media (max-width: 768px) {
   .nav {
-    font-size: 22px;
-    width: 45%;
+    display: none;
     }
 }

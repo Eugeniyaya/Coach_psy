@@ -5,3 +5,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .contact-icons {
+    margin: 0 auto;
+    }
+}

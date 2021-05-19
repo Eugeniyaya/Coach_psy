@@ -1,7 +1,5 @@
 .account-timing {
   width: 100%;
-  outline: 2px solid rgb(18, 149, 248);
-  outline-offset: -2px;
   display: flex;
   flex-direction: column;
   padding-bottom: 90px;
@@ -33,9 +31,15 @@
 .account-timing__item:last-child {
   border-bottom: none;
 }
+.account-timing__text {
+  width: 100%;
+}
 .account-timing__text_time {
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 110px;
+  padding-left: 20px;
+}
+.account-timing__text_date {
+  width: 110px;
 }
 .account-timing__list {
   margin-bottom: 60px;
@@ -47,3 +51,29 @@
 .account-timing__last-cons, .account-timing__future-cons {
   background-color: $light-blue-color;
 }
+@media (max-width: 1024px) {
+  .account-timing__text {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .account-timing__title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .account-timing__text {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 9px;
+  }
+  .account-timing__item {
+    margin: 0 5px;
+    padding: 15px 0;
+  }
+  .account-timing__list {
+    margin-bottom: 10px;
+  }
+}
+

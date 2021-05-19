@@ -32,3 +32,22 @@
 .reviews__arrows_next {
   transform: rotate(90deg);
 }
+// @media (max-width: 1024px) {
+
+// }
+@media (max-width: 768px) {
+  .reviews {
+    margin-bottom: 60px;
+  }
+  .reviews__title {
+    font-size: 20px;
+    line-height: 30px;
+    align-self: flex-start;
+    padding-left: 15px;
+  }
+  // .reviews__img {
+  //   width: 320px;
+  //   padding: 0;
+  // }
+}
+

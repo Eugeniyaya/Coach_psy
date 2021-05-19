@@ -60,12 +60,22 @@ body {
 .main {
   text-decoration: none;
 }
+.main__account {
+  width: 100%;
+  display: flex;
+}
 
 .main__sprite {
   display: block;
   width: 1px;
   height: 1px;
   margin-top: -1px;
+}
+.carousel-control-next-icon {
+  background-image: url(/source/img/arrow-right.svg);
+}
+.carousel-control-prev-icon {
+  background-image: url(/source/img/arrow-left.svg);
 }
 
 .main__content-wrapper {
@@ -74,10 +84,11 @@ body {
 }
 .carousel-item {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .carousel-item img {
-  padding: 0 90px;
+  //padding: 0 160px;
 }
 .carousel-item.active {
   display: flex;
@@ -91,5 +102,17 @@ body {
   .body {
     font-size: 18px;
     line-height: 26px;
+  }
+  .main__mobile-hidden {
+    display: none;
+  }
+  .carousel-item img {
+    width: 100%;
+    padding: 0;
+  }
+  .main__account {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
   }
 }

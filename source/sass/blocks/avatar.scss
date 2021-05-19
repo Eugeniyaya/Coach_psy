@@ -20,4 +20,26 @@
   color: $dark-purple-color;
   padding-left: 33px;
   padding-top: 6px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .avatar {
+    margin: 20px 0;
+    display: flex;
+  }
+  .avatar__img {
+    width: 85px;
+    height: 85px;
+    background-size: 40px;
+  }
+  .avatar__link-change {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 7px;
+    padding-top: 0;
+  }
+  .avatar__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }

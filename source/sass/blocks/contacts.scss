@@ -1,8 +1,6 @@
 .contacts {
   max-width: 1119px;
   min-height: 127px;
-  outline: 2px solid rgb(138, 247, 49);
-  outline-offset: -2px;
   margin: 0 auto;
   margin-bottom: 100px;
 }
@@ -24,6 +22,9 @@
   color: $dark-purple-color;
   padding-left: 55px;
 }
+.contacts__link_account-page {
+  font-size: 16px;
+}
 .contacts__link_wapp {
   background-image: url(/source/img/whatsapp-blue-icon.svg);
   background-repeat: no-repeat;
@@ -43,15 +44,27 @@
   .contacts {
     padding: 0 20px;
   }
+  .contacts__link {
+    font-size: 18px;
+    padding-left: 35px;
+  }
+  .contacts__link_telegram, .contacts__link_wapp, .contacts__link_mail {
+    background-size: 30px;
+  }
 }
 @media (max-width: 768px) {
   .contacts {
     margin-bottom: 60px;
   }
   .contacts__title {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .contacts__link {
     font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .contacts__wrapper {
+    flex-direction: column;
   }
 }

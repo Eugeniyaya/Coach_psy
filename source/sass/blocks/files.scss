@@ -1,7 +1,5 @@
 .files {
   width: 100%;
-  outline: 2px solid rgb(138, 106, 3);
-  outline-offset: -2px;
   display: flex;
   flex-direction: column;
   margin-bottom: 70px;
@@ -24,10 +22,28 @@
   height: 50px;
   margin-left: auto;
 }
-.files__button_disable {
+.files__button_disable, .files__button_disable:hover, .files__button_disable:active {
   background-color: $gray-color;
   border-color: $gray-color;
+  box-shadow: none;
 }
 .files__icon {
   margin-right: 30px;
 }
+.files__text {
+  width: 300px;
+}
+// @media (max-width: 1024px) {
+
+// }
+@media (max-width: 768px) {
+  .files__item {
+    padding: 0 10px;
+    margin-bottom: 20px;
+  }
+  .files__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+

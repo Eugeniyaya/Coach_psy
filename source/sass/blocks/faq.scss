@@ -1,8 +1,6 @@
 .faq {
   max-width: 1310px;
   min-height: 984px;
-  outline: 2px solid rgb(255, 207, 17);
-  outline-offset: -2px;
   margin: 0 auto;
   margin-bottom: 80px;
   font-family: Raleway;
@@ -29,12 +27,18 @@
 @media (max-width: 768px) {
   .faq {
     margin-bottom: 60px;
+    min-height: auto;
+    padding: 0 30px;
   }
+
   .faq__title {
     padding-bottom: 30px;
   }
   .faq__question {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
+  }
+  .faq__questions {
+    padding-bottom: 30px;
   }
 }

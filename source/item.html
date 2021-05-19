@@ -168,6 +168,9 @@
   </svg>
   <header class="header">
       <div class="header__wrapper">
+        <div class="header__burger">
+          <span class="header__burger-slice"></span>
+        </div>
         <a class="header__logo" href="index.html">
           <svg width="220" height="68">
             <use xlink:href="#logo"></use>
@@ -180,7 +183,7 @@
         </nav>
         <form class="search-form header__search-form">
           <input class="search-form__input" placeholder="поиск по сайту">
-          <button class="search-form__button">Искать</button>
+          <button class="btn_dark search-form__button">Искать</button>
         </form>
         <div class="header__icons">
           <button class="header__entry">
@@ -197,7 +200,9 @@
       </div>
   </header>
   <section class="item item__self">
-      <img class="item__img" src="img/coach_kons.jpg" alt="Персональная консультация психолога-коуча online">
+    <div class="item__img-wrapper">
+      <img class="item__img item__img_coach" src="img/coach_kons.jpg" alt="Персональная консультация психолога-коуча online">
+    </div>
       <div class="item__content">
         <h1 class="item__title_item-page">Персональная консультация психолога-коуча online</h1>
         <div class="item__text-wrapper">
@@ -222,9 +227,9 @@
           <p class="item__price item__price_item-page">3000 руб.</p>
         </div>
         <div class="item__buttons">
-          <button type="button" class="btn btn_dark item__button">Записаться на консультацию</button>
-          <button type="button" class="btn btn_light item__button">Положить в корзину
-            <span>
+          <button type="button" class="btn btn_dark item__button">записаться <span class="main__mobile-hidden">на консультацию</span></button>
+          <button type="button" class="btn btn_light item__button"><span class="main__mobile-hidden">Положить </span>в корзину
+            <span class="main__mobile-hidden">
               <svg class="item__icon-cart" width="25" height="28">
                 <use xlink:href="#shopping-cart-icon"></use>
               </svg>
@@ -288,10 +293,10 @@
     <p class="form__text">
       Мы побеседуем. Я расскажу о себе и методах моей работы,<br>
       За 30 минут общения сложится взаимное представление друг о друге.<br>
-      Помогу четко сформулировать ваш запрос и расскажу как мы сможем<br>
+      Помогу четко сформулировать ваш запрос и расскажу как мы сможем
       с ним работать. Вы сможете задать мне все интересующие вопросы.<br>
       <br>
-      Я проведу небольшие тесты для определния вашей готовности работать<br>
+      Я проведу небольшие тесты для определния вашей готовности работать
       над проблемой. И, в итоге, поймем, готовы ли мы к дальнейшему сотрудничеству.
     </p>
   </form>

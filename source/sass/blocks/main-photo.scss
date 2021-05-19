@@ -10,8 +10,6 @@
 .main-photo__wrapper {
   max-width: 1340px;
   min-height: 520px;
-  outline: 2px solid rgb(37, 206, 121);
-  outline-offset: -2px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -31,6 +29,22 @@
   align-self: flex-end;
   padding-right: 36px;
 }
+.main-photo__icon {
+  stroke-width: 0;
+  stroke: white;
+  fill: white;
+}
+.main-photo__icon_wapp {
+  stroke-width: 0.5;
+}
+.main-photo__icon:hover {
+  fill: $purple-color;
+  stroke: $purple-color;
+}
+.main-photo__icon:active {
+  fill: $dark-purple-color;
+  stroke: $dark-purple-color;
+}
 @media (max-width: 1024px) {
   .main-photo__title {
     width: 50%;
@@ -38,6 +52,28 @@
 }
 @media (max-width: 768px) {
   .main-photo {
+    min-height: 493px;
     margin-bottom: 60px;
+    background-image: url(/source/img/main_photo.jpg);
+    background-repeat: no-repeat;
+    background-position: 54%;
+    background-position-y: center;
+    background-size: 150%;
+  }
+  .main-photo__wrapper {
+    min-height: 493px;
+  }
+  .main-photo__title {
+    font-size: 35px;
+    line-height: 40px;
+    width: 60%;
+  }
+  .main-photo__icon {
+    width: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .main-photo {
+    background-size: 250%;
   }
 }

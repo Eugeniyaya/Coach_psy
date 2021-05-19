@@ -1,8 +1,6 @@
 .item {
   max-width: 1140px;
   min-height: 437px;
-  outline: 2px solid rgb(241, 37, 156);
-  outline-offset: -2px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -28,7 +26,7 @@
   margin-left: 20px;
 }
 .item__content {
-  width: 670px;
+  max-width: 670px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,12 +106,36 @@
 }
 @media (max-width: 1024px) {
   .item {
+    flex-wrap: wrap;
     padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .item__content {
+    padding-left: 20px;
+  }
+  .item__content:nth-of-type(even) {
+    padding-right: 20px;
   }
   .item__img {
     width: 300px;
     height: 375px;
     align-self: center;
+  }
+  .item__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .item__text, .item__text_second {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .item__text_second {
+    width: 94%;
+    padding-bottom: 15px;
+  }
+  .item__info-wrapper {
+    padding-bottom: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -121,21 +143,107 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 60px;
+    padding: 0;
+    flex-direction: column;
   }
-  .item__img {
-    padding-bottom: 20px;
+  .item__content {
+    max-width: 320px;
+    padding-left: 15px;
   }
   .item__title {
+    width: 300px;
+    padding: 0;
     padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
   }
   .item__info-wrapper {
-    padding: 15px 0;
+    padding: 25px 0;
+    padding-top: 0px;
+    flex-direction: row-reverse;
+    font-size: 14px;
+    line-height: 30px;
+    flex-wrap: wrap-reverse;
   }
-  .item__text {
-    font-size: 18px;
-    line-height: 26px;
+  .item__text, .item__text_second {
+    font-size: 14px;
+    line-height: 24px;
   }
   .item__text2-wrapper {
     padding-bottom: 10px;
+    flex-direction: column;
+  }
+  .item__button {
+    width: 150px;
+  }
+  .item__text-wrapper {
+    padding-left: 15px;
+  }
+  .item__question {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .item__link {
+    order: 3;
+    width: 33%;
+  }
+  .item__time-wrapper {
+    padding-top: 15px;
+    order: 1;
+    width: 50%;
+    line-height: 16px;
+  }
+  .item__price {
+    padding-top: 15px;
+    order: 0;
+  }
+  .item:nth-of-type(even) .item__text2-wrapper {
+    padding-left: 0px;
+  }
+  .item:nth-of-type(even) {
+    flex-direction: column;
+  }
+  .item__time-icon {
+    width: 20px;
+    height: 24px;
+  }
+  .item__img-wrapper {
+    width: 100%;
+    max-width: 360px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .item__img {
+    width: 107%;
+    position: absolute;
+    bottom: -150px;
+    left: -15px;
+  }
+  .item__img_coach {
+    bottom: 0;
+  }
+  .item__title_item-page {
+  font-family: El Messiri;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 22px;
+  padding-bottom: 15px;
+  }
+  .item__self {
+    margin-top: 0px;
+  }
+  .item__info-wrapper_item-page {
+    order: 2;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .item__price_item-page {
+    background-color: transparent;
+    justify-content: flex-end;
+    margin: 0;
   }
 }

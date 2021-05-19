@@ -24,3 +24,25 @@
   max-width: 1340px;
   display: flex;
 }
+// @media (max-width: 1024px) {
+
+// }
+@media (max-width: 768px) {
+  .about-me__about-form-wrapper {
+    flex-direction: column;
+  }
+  .about-me {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 60px;
+  }
+  .about-me__title {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+  .about-me__text {
+    padding-right: 15px;
+  }
+}
+

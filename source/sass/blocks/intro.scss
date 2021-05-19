@@ -5,8 +5,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
-  outline: 2px solid red;
-  outline-offset: -2px;
   justify-content: space-between;
 }
 
@@ -19,7 +17,7 @@
   padding-bottom: 2px;
 }
 .intro__list li {
-  width: 510px;
+  max-width: 510px;
   padding-bottom: 5px;
 }
 .intro__list li::before {
@@ -37,6 +35,12 @@
   width: 260px;
   height: 56px;
 }
+@media (max-width: 1250px) {
+  .intro {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1024px) {
   .intro {
     justify-content: center;
@@ -51,9 +55,26 @@
 @media (max-width: 768px) {
   .intro {
     margin-bottom: 60px;
+    flex-direction: column;
+    align-content: center;
+  }
+  .intro__wrapper {
+    width: 315px;
+    padding-left: 3%;
   }
   .intro__portret {
-    width: 400px;
+    width: 320px;
+  }
+  .intro__info h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .intro__list, .intro__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .intro__button {
+    margin: 0 auto;
   }
 }
 

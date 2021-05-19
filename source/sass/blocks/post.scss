@@ -24,3 +24,52 @@
   max-width: 900px;
   padding-left: 67px;
 }
+@media (max-width: 1024px) {
+  .post {
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .post__image {
+    margin-bottom: 30px;
+  }
+  .post__first-text-wrap {
+    padding-left: 0px;
+  }
+  .post__text {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .post__title {
+    padding-left: 25px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .post {
+    margin-top: 0px;
+  }
+  .post__image {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .post__title {
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 10px;
+  }
+  .post__text {
+    line-height: 22px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .post__title {
+    padding-left: 15px;
+  }
+
+}

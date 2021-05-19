@@ -21,9 +21,41 @@
   line-height: 20px;
   padding-bottom: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .question__text {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .question {
+    background-size: 30px;
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 42px;
+    position: relative;
+  }
+  .question__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .question__text_hidden {
+    display: none;
+  }
+  .question__arrow-down {
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-bottom: 2px solid $dark-purple-color;
+    border-left: 2px solid $dark-purple-color;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
   }
 }

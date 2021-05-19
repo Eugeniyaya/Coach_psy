@@ -26,3 +26,38 @@
 .information__img-text-wrapper:nth-of-type(2n){
   flex-direction: row-reverse;
 }
+@media (max-width: 1142px) {
+  .information {
+    padding: 0 20px;
+  }
+  .information__text {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 768px) {
+  .information__title {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  .information__img-text-wrapper {
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
+  }
+  .information__first-img {
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  .information__img-text-wrapper:nth-of-type(2n) {
+    flex-direction: column-reverse;
+  }
+  .information__second-img {
+    margin-bottom: 20px;
+    align-self: center;
+  }
+  .information__text {
+    padding: 10px 15px;
+  }
+}
+
