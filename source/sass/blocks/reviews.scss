@@ -45,9 +45,11 @@
     align-self: flex-start;
     padding-left: 15px;
   }
-  // .reviews__img {
-  //   width: 320px;
-  //   padding: 0;
-  // }
 }
-
+@media (max-width: 425px) {
+  .reviews__title {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+}

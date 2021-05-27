@@ -37,11 +37,22 @@
   right: 14%;
   top: -17px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1246px) {
   .introduce__img {
     width: 29%;
     right: 1%;
     top: -4px;
+  }
+  .introduce__my-name {
+    font-size: 28px;
+  }
+  .introduce__title {
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  .introduce__text {
+    font-size: 16px;
   }
   .introduce__content {
     padding-left: 2%;
@@ -81,3 +92,9 @@
     line-height: 24px;
   }
 }
+@media (max-width: 425px) {
+  .introduce__img {
+    right: 33%;
+  }
+}
+

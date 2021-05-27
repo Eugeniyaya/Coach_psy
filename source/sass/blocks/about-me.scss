@@ -24,9 +24,12 @@
   max-width: 1340px;
   display: flex;
 }
-// @media (max-width: 1024px) {
+@media (max-width: 1024px) {
+  .about-me {
+    padding-left: 1%;
+  }
 
-// }
+}
 @media (max-width: 768px) {
   .about-me__about-form-wrapper {
     flex-direction: column;
@@ -40,6 +43,7 @@
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
+    padding-top: 20px;
   }
   .about-me__text {
     padding-right: 15px;
